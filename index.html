@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
-    <script src="js/variables.js" defer></script>
+    <script src="js/variables.js"    defer></script>
 </head>
 
 <body>
@@ -16,9 +16,9 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <h1>test side</h1>
+    <h1>test side</h1> <!--Jeg har kun EN h1 på mine sider-->
     <h2 class="smallHeadline">afsnit</h2>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+    <p class="text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
         quam,
         feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
         ultricies
@@ -31,50 +31,50 @@
 
     <h2 class="smallHeadline">fieldset</h2>
 
-    <fieldset>
+    <fieldset id="fieldset">
 
-        <legend>Forskellige inputs og interaktions muligheder</legend>
+        <legend class="legendText">Forskellige inputs og interaktions muligheder</legend>
 
-        <label>Month</label>
-        <input type="month">
+        <label class="month">Month</label>
+        <input class="inptMonth" type="month">
 
-        <label><input type="checkbox" name="checkbox">Check</label>
+        <label class="check"><input class="checkbox" type="checkbox" name="checkbox">Check</label>
 
-        <label>Color</label>
-        <input type="color">
-
-
-        <label>radio buttons</label>
-        <label><input type="radio" name="radio">option 1</label>
-        <label><input type="radio" name="radio">option 2</label>
-        <label><input type="radio" name="radio">option 3</label>
+        <label class="color">Color</label>
+        <input class="inptColor" type="color">
 
 
-        <label>Range</label>
-        <input type="range">
-
-        <input type="button" value="input Button">
-
-
-        <input type="reset" value="Reset">
+        <label class="radio">radio buttons</label>
+        <label class="radioOne"><input class="rInptOne" type="radio" name="radio">option 1</label>
+        <label class="radioTwo"><input class="rInptTwo type="radio" name="radio">option 2</label>
+        <label class="radioThree"><input class="rInptThree type="radio" name="radio">option 3</label>
 
 
-        <input type="submit" value="Submit">
+        <label class="range">Range</label>
+        <input class="inptRange" type="range">
 
-        <button>button</button>
+        <input class="inptButton" type="button" value="input Button">
 
-        <label>Select</label>
 
-        <select>
-            <optgroup label="first options">
-                <option>select 1</option>
-                <option>select 2</option>
-                <option>select 3</option>
+        <input class="inptReset" type="reset" value="Reset">
+
+
+        <input class="inptSubmit" type="submit" value="Submit">
+
+        <button id="button">button</button>
+
+        <label class="select">Select</label>
+
+        <select id="select">
+            <optgroup id="optOne" label="first options">
+                <option class="otpOne">select 1</option>
+                <option class="otpTwo">select 2</option>
+                <option class="otpThree">select 3</option>
             </optgroup>
-            <optgroup label="second options">
-                <option>select 4</option>
-                <option>select 5</option>
-                <option>select 6</option>
+            <optgroup id="optTwo" label="second options">
+                <option class="otpFour">select 4</option>
+                <option class="otpFive">select 5</option>
+                <option class="otpSix">select 6</option>
             </optgroup>
         </select>
 
